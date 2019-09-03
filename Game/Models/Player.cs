@@ -6,5 +6,12 @@ namespace Game.Models
     {
         public string PlayerName;
         public int PlayerHealth;
+
+     public Player(string PlayerName, int PlayerHealth)
+    {
+        _PlayerName = PlayerName;
+        _PlayerHealth = PlayerHealth;
+    }
+    
     }
 }
